@@ -8,7 +8,7 @@ ReqTidy is a Visual Studio Code extension that helps you keep your `requirements
 - **Remove Duplicates**: Removes duplicate entries, keeping only the latest version if multiple versions are specified.
 - **Configuration Option**: Allows you to enable or disable the removal of duplicate entries through a configuration setting.
 
-![ReqTidy in action](images/reqtidy-action.gif)
+![ReqTidy in action](https://github.com/moritzb/reqtidy/raw/main/images/reqtidy-action.gif)
 
 ## Requirements
 
@@ -22,7 +22,7 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-There are no known issues at this time. If you encounter any problems, please report them on the [GitHub issues page](https://github.com/yourusername/reqtidy/issues).
+There are no known issues at this time. If you encounter any problems, please report them on the [GitHub issues page](https://github.com/moritzb/reqtidy/issues).
 
 ## Release Notes
 
