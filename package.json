@@ -1,6 +1,6 @@
 {
-  "name": "reqtidy",
-  "displayName": "ReqTidy",
+  "name": "reqformatter",
+  "displayName": "Requirements Formatter",
   "description": "This extension automatically sorts and formats your requirements.txt file, ensuring a clean and organized list of dependencies for your Python projects.",
   "version": "0.0.1",
   "publisher": "mrtz-cdstb00",
@@ -18,9 +18,9 @@
   "contributes": {
     "configuration": {
       "type": "object",
-      "title": "ReqTidy Settings",
+      "title": "Requirements Formatter Settings",
       "properties": {
-        "reqTidy.removeDuplicates": {
+        "reqFormatter.removeDuplicates": {
           "type": "boolean",
           "default": true,
           "description": "If activated, duplicate entries in requirements.txt are removed."
@@ -38,7 +38,7 @@
     "commands": [
       {
         "command": "extension.sortRequirements",
-        "title": "ReqTidy: Tidy up requirements.txt"
+        "title": "Requirements Formatter: Format your requirements.txt"
       }
     ]
   },

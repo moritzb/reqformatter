@@ -2,7 +2,7 @@ import * as vscode from "vscode";
 
 export function getFormattedText(document: vscode.TextDocument): string {
   // Konfiguration auslesen
-  const config = vscode.workspace.getConfiguration("reqTidy");
+  const config = vscode.workspace.getConfiguration("reqFormatter");
   const removeDuplicates = config.get<boolean>("removeDuplicates", false);
 
   // Alle Zeilen einlesen; leere Zeilen ignorieren
