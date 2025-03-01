@@ -7,13 +7,15 @@
   "engines": {
     "vscode": "^1.97.0"
   },
+  "icon": "./images/logo.png",
   "main": "./out/extension.js",
   "categories": [
     "Other",
     "Formatters"
   ],
   "activationEvents": [
-    "onLanguage:plaintext"
+    "onLanguage:plaintext",
+    "onLanguage:pip-requirements"
   ],
   "contributes": {
     "configuration": {
