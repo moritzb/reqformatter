@@ -13,10 +13,6 @@
     "Other",
     "Formatters"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://dev.azure.com/mosbastelecke/reqformatter/_git/reqformatter"
-  },
   "activationEvents": [
     "onLanguage:plaintext",
     "onLanguage:pip-requirements"
