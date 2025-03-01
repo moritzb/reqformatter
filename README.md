@@ -8,7 +8,7 @@ Requirements Formatter is a Visual Studio Code extension that helps you keep you
 - **Remove Duplicates**: Removes duplicate entries, keeping only the latest version if multiple versions are specified.
 - **Configuration Option**: Allows you to enable or disable the removal of duplicate entries through a configuration setting.
 
-![Requirements Formatter in action](./images/reqformatter-action.gif)
+![Requirements Formatter in action](https://s3.gifyu.com/images/bbzrF.gif)
 
 ## Requirements
 
